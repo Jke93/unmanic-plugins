@@ -12,7 +12,7 @@
         "all"
     ],
     "priorities":{
-        "on_library_management_file_test": 99
+        "on_library_management_file_test": 100
     },
     "tags": "audio,language,dts,eac3,library file test",
     "version": "0.1.0"
