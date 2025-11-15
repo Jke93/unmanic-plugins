@@ -6,7 +6,22 @@
         "icon": "",
         "repo_data_url": "https://raw.githubusercontent.com/Jke93/unmanic-plugins/main/repo/repo.json",
         "repo_data_checksum": "",
-        "repo_data_directory": "https://raw.githubusercontent.com/Josh5/unmanic-plugins/main/repo/"
+        "repo_data_directory": "https://raw.githubusercontent.com/Jke93/unmanic-plugins/main/repo/"
     },
-    "plugins": []
+    "plugins": [
+        {
+            "author": "Jan Kehe",
+            "compatibility": [2],
+            "description": "Makiert nur Dateien zur Verarbeitung, die deutsche DTS/DTS-HD/DTS:X-Spuren enthalten, aber keine detuschen AC3/EAC3/TrueHD-Spruen.",
+            "icon": "",
+            "id": "de_dts_without_de_ac3_eac3_truehd",
+            "name": "DE-DTS ohne DE-AC3/EAC3/TrueHD filtern",
+            "platform": ["all"],
+            "priorities":{
+                "on_library_management_file_test": 99
+            },
+            "tags": "audio,language,dts,eac3,library file test",
+            "version": "0.1.0"
+        }
+    ]
 }
