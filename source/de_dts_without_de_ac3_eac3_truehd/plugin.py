@@ -31,7 +31,7 @@ def _parse_lang_tags(raw: str) -> List[str]:
 
     if not raw:
         return[]
-    return [t.strip.lower() for t in raw.split(",") if t.strip()]
+    return [t.strip().lower() for t in raw.split(",") if t.strip()]
 
 
 def _ffprobe_audio_streams(path: str) -> List[Dict[str, Any]]:
